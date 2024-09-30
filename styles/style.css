@@ -1,5 +1,5 @@
 /* место для вашего кода */
-.header{
+.header {
 	display:grid;
 	align-items: center;
 	margin: 92px 24px 94px 24px;
@@ -13,7 +13,7 @@
 	margin: 0 26px;
 }
 
-.header__links-list{
+.header__links-list {
 	max-width: 392px;
 	display: flex;
 	list-style: circle;
@@ -39,17 +39,17 @@
 	border-bottom: none;
 }
 
-.header__logo{
+.header__logo {
 	grid-column: 12 / span 2;
 	height: 108px;
 	width: 148px;
 }
 
-.header__logo-image{
+.header__logo-image {
 	height: 108px;
 }
 
-.header__address{
+.header__address {
 	grid-column: 18 / 24;
 	margin-left: 22px;
 	line-height: 1.4em;
@@ -78,7 +78,7 @@
 }
 
 .cover__title,
-.cover__description{
+.cover__description {
 	position: relative;
 }
 
@@ -86,12 +86,12 @@
 	align-self: start;
 }
 
-.letter-spacing-left{
+.letter-spacing-left {
 	display: inline-block;
 	margin-left: 35px;
 }
 
-.letter-spacing-right{
+.letter-spacing-right {
 	display: inline-block;
 	margin-right: 35px;
 }
@@ -108,7 +108,7 @@
 	align-self: end;
 }
 
-.no-letter-spacing{
+.no-letter-spacing {
 	letter-spacing: 0;
 }
 
@@ -231,7 +231,7 @@
 	height: 114px;
 }
 
-.about__articale{
+.about__articale {
 	grid-column: 2fr;
 	padding-top: 138px;
 	font-size: 20px;
@@ -244,7 +244,7 @@
 	margin-bottom: 98px;
 }
 
-.about__text{
+.about__text {
 	font-size: 20px;
 	display: flex;
 	flex-direction: column;
@@ -269,7 +269,7 @@
 	line-height: 24.3px;
 }
 
-.address__tel-link, .address__mail-link  {
+.address__tel-link, .address__mail-link {
 	text-decoration: none;
 }
 
